@@ -4,16 +4,23 @@ layout: page
 ---
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 <div class="row">
-  <div class="col-md-8">
-    
+  <div class="col-md-4">
+    <h3>Form</h3>
+    <button class="button priority">AABA</button>
+    <button class="button priority">Rounded Binary</button>
+    <button class="button priority">Binary</button>
   </div>
   <div class="col-md-4">  
-
+    <h3>Tonality</h3>
+    <button class="button secondary">Major</button>
+    <button class="button secondary">Minor</button>
+    <button class="button secondary">Pentatonic</button>
   </div>
-  <div class="col-md-12">
-
-    {% include index/data-download.html %}
-
+  <div class="col-md-4">
+    <h3>Meter/Rhythm</h3>
+    <button class="button priority">Simple</button>
+    <button class="button priority">Compound</button>
+    <button class="button priority">Asymmetrical</button>
   </div>
 
 </div>
