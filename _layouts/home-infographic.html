@@ -8,7 +8,7 @@ sentence: true
 <div class="row">
   <div class="col-md-4">
     <h3>Form</h3>
-    <button {% if page.sentence == true %} class="btn-primary" {% endif %} onclick="set_search('sentence')">Sentence</button>
+    <button {% if page.sentence %} class="btn-primary" {% endif %} onclick="set_search('sentence')">Sentence</button>
     <button onclick="set_search('parallel period')">Parallel Period</button>
     <button class="button priority">Contrasting Period</button>
     <button class="button priority">AABA</button>
