@@ -1,13 +1,14 @@
 ---
 # Default home page with boxes providing collection stats
 layout: page
+sentence: true
 ---
 
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 <div class="row">
   <div class="col-md-4">
     <h3>Form</h3>
-    <button class="{% if true %} btn-primary {% endif %}" onclick="set_search('sentence')">Sentence</button>
+    <button class="{% if sentence %} btn-primary {% endif %}" onclick="set_search('sentence')">Sentence</button>
     <button onclick="set_search('parallel period')">Parallel Period</button>
     <button class="button priority">Contrasting Period</button>
     <button class="button priority">AABA</button>
