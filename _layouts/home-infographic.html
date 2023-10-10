@@ -2,11 +2,7 @@
 # Default home page with boxes providing collection stats
 layout: page
 ---
-<script>
-  function set_search(add_this) {
-    document.getElementById("site-search").innerText += add_this;
-  }
-</script>
+
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 <div class="row">
   <div class="col-md-4">
@@ -92,16 +88,13 @@ layout: page
     <button class="button">Suspension</button>
     <button class="button">Anticipation</button>
   </div>
-  
-  
-  
-  
-  
-  
-  
-  
 </div>
 
+<script type="application/ld+json">
+  function set_search(add_this) {
+    document.getElementById("site-search").innerText += add_this;
+  }
+</script>
 
 
 
