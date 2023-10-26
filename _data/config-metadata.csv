@@ -4,7 +4,7 @@ creator,Creator,,,DCTERMS.creator,creator
 arranger,Arranger,,,,arranger
 date,Date Created,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
-form,Form,,,,form
+form,Form,true,,,form
 tonality,Tonality,,,,tonality
 meterrhythm,Meter/Rhythm,,,,meterrhythm
 texture,Texture,,,,texture
@@ -12,7 +12,7 @@ chords,Chords,,,,chords
 progressions,Progressions,,,,progressions
 cadences,Cadences,,,,cadences
 nonchordtones,Non-Chord Tones,,,,nonchordtones
-subject,Subjects,true,,DCTERMS.subject,keywords
+subject,Subjects,,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
