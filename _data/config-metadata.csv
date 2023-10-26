@@ -5,7 +5,7 @@ arranger,Arranger,,,,arranger
 date,Date Created,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 form,Form,true,,,form
-tonality,Tonality,,,,tonality
+tonality,Tonality,true,,,tonality
 meterrhythm,Meter/Rhythm,,,,meterrhythm
 texture,Texture,,,,texture
 chords,Chords,,,,chords
