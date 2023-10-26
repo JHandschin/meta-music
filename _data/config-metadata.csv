@@ -6,12 +6,12 @@ date,Date Created,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 form,Form,true,,,form
 tonality,Tonality,true,,,tonality
-meterrhythm,Meter/Rhythm,,,,meterrhythm
-texture,Texture,,,,texture
-chords,Chords,,,,chords
-progressions,Progressions,,,,progressions
-cadences,Cadences,,,,cadences
-nonchordtones,Non-Chord Tones,,,,nonchordtones
+meterrhythm,Meter/Rhythm,true,,,meterrhythm
+texture,Texture,true,,,texture
+chords,Chords,true,,,chords
+progressions,Progressions,true,,,progressions
+cadences,Cadences,true,,,cadences
+nonchordtones,Non-Chord Tones,true,,,nonchordtones
 subject,Subjects,,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
