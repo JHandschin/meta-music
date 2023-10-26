@@ -12,7 +12,6 @@ chords,Chords,true,,,chords
 progressions,Progressions,true,,,progressions
 cadences,Cadences,true,,,cadences
 nonchordtones,Non-Chord Tones,true,,,nonchordtones
-subject,Subjects,,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
