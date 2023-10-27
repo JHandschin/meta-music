@@ -10,7 +10,7 @@
         console.log("sent: " + query);
         t = document.getElementById("bubble-site-search").value;
         console.log("end: " + t);
-        document.getElementById("bubble-site-search").value = document.getElementById("bubble-site-search").value += " " query;
+        document.getElementById("bubble-site-search").value = t + " " + query;
         // window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
 </script>
