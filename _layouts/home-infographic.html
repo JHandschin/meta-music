@@ -4,8 +4,11 @@ layout: page
 sentence: true
 ---
 
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<!-- {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%} -->
 <div class="row">
+  <form >
+    <input class="search-input" type="text" id="search_input">
+  </form>
   <div class="col-md-4">
     <h3>Form</h3>
     <button onclick="set_search('sentence')">Sentence</button>
