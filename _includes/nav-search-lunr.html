@@ -7,7 +7,9 @@
         // var hold = document.getElementById("site-search").value;
         // hold = hold + " " + add_this
         // document.getElementById("site-search").innerText = hold;
-        window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
+        var t = document.getElementById("site-search").value;
+        t.innerHTML = t.innerHTML += query;
+        // window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
 </script>
 <form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
