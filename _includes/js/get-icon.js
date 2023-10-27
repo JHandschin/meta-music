@@ -38,7 +38,7 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     //     iconId = "icon-default";
     //     iconTitle = "file icon";
     // }
-    iconId = "music-svgrepo-com";
+    iconId = "file-earmark-music";
     iconTitle = "audio file icon";
     if (svgType == "thumb") {
         // svg sprite as thumb
