@@ -7,7 +7,7 @@ sentence: true
 <!-- {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%} -->
 <div class="row">
   <form >
-    <input class="search-input" type="text" id="search_input">
+    <input class="form-inline" type="text" id="search_input" onsubmit="site_search(); return false;" value="" >
   </form>
   <div class="col-md-4">
     <h3>Form</h3>
