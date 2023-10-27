@@ -12,6 +12,7 @@ function getIcon(objectTemplate,objectFormat,svgType) {
         iconTemplate = ""
     }
     // choose icon
+    iconTemplate = "audio";
     if (iconTemplate.includes("image")) {
         iconId = "icon-image";
         iconTitle = "image file icon";
