@@ -9,7 +9,9 @@
         // document.getElementById("site-search").innerText = hold;
         console.log("sent: " + query)
         var t = document.getElementById("bubble-site-search").value;
-        t.innerHTML = t.innerHTML += query;
+        t.value = t.value += query;
+        console.log("end: " + t)
+        document.getElementById("bubble-site-search").value = t;
         // window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
 </script>
