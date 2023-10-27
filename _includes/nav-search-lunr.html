@@ -7,7 +7,8 @@
         // var hold = document.getElementById("site-search").value;
         // hold = hold + " " + add_this
         // document.getElementById("site-search").innerText = hold;
-        var t = document.getElementById("site-search").value;
+        console.log("sent: " + query)
+        var t = document.getElementById("bubble-site-search").value;
         t.innerHTML = t.innerHTML += query;
         // window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
