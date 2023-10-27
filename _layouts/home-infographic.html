@@ -6,7 +6,7 @@ sentence: true
 
 <!-- {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%} -->
 <div class="row">
-  <form class="form-inline" role="search" id="bubble-search" onsubmit="site_search(); return false;">
+  <form readonly="readonly" class="form-inline" role="search" id="bubble-search" onsubmit="site_search(); return false;">
     <div class="input-group">
         <input id="bubble-site-search" class="form-control " type="text" placeholder="Search" aria-label="Search box">
         <button class="btn btn-light" type="submit">
@@ -16,6 +16,7 @@ sentence: true
     </div>
 </form>
   <div class="col-md-4">
+    <h2>Please Select Tags by Clicking Buttons</h2>
     <h3>Form</h3>
     <button onclick="set_search('sentence')">Sentence</button>
     <button onclick="set_search('parallel period')">Parallel Period</button>
