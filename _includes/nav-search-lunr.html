@@ -1,15 +1,13 @@
 <script>
     function site_search() {
-        var query = document.getElementById("site-search").value;
+        var query = document.getElementById("bubble-site-search").value;
         window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
     function set_search(query) {
         // var hold = document.getElementById("site-search").value;
         // hold = hold + " " + add_this
         // document.getElementById("site-search").innerText = hold;
-        console.log("sent: " + query);
         t = document.getElementById("bubble-site-search").value;
-        console.log("end: " + t);
         document.getElementById("bubble-site-search").value = t + " " + query;
         // window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
