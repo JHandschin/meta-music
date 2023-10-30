@@ -9,7 +9,7 @@
 /* add items */
 var items = [
     {% for item in items %}
-    { {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endfor -%}
+    { {% for f in fields %}{% if item[f.field] %}{% if item[f.field] != "" %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endif -%}{%- endfor -%}
         {% if item.image_thumb %}"img": {{ item.image_thumb | relative_url | jsonify }}, {%- endif -%} 
         {% if item.display_template %}"template": {{ item.display_template | replace: "_"," " | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
