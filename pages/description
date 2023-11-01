@@ -7,3 +7,8 @@ permalink: /description.html
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
+<ul>
+  <li>item1</li>
+  <li>item2</li>
+  <li>item3</li>
+</ul>
