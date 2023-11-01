@@ -10,10 +10,10 @@ permalink: /description.html
 <div class="table-container">
   <table id="item-table" class="table table-striped dataTable no-footer">
     <tbody>
-      <h3 class="table-head">Form</h3>
+      <tr><h3 class="table-head">Form</h3></tr>
       <tr class="odd"><td>item</td>  <td>description</td></tr>
       <tr class="even"><td>item</td>  <td>description</td></tr>
-      <h3 class="table-head">Tonality</h3>
+      <tr><h3 class="table-head">Tonality</h3></tr>
       <tr class="odd"><td>item</td>  <td>description</td></tr>
       <tr class="even"><td>item</td>  <td>description</td></tr>
     </tbody>
