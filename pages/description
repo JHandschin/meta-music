@@ -7,8 +7,15 @@ permalink: /description.html
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-<ul>
-  <li>item1</li>
-  <li>item2</li>
-  <li>item3</li>
-</ul>
+<table id="item-table" class="table table-striped dataTable no-footer" aria-describedby="item-table_info" style="width: 941px;">
+  <tbody>
+    <tr>
+      <td>item</td>  <td>description</td>
+      <td>item</td>  <td>description</td>
+      <td>item</td>  <td>description</td>
+      <td>item</td>  <td>description</td>
+      <td>item</td>  <td>description</td>
+    </tr>
+  </tbody>
+
+</table>
