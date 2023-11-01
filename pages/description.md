@@ -9,13 +9,21 @@ permalink: /description.html
 ---
 <div class="table-container">
   <table id="item-table" class="table table-striped dataTable no-footer">
+    <h3>Form</h3>
     <tbody>
-      <tr><td class="table-head">Form</td></tr>
-      <tr class="odd"><td>item</td>  <td>description</td></tr>
-      <tr class="even"><td>item</td>  <td>description</td></tr>
-      <tr><td class="table-head">Tonality</td></tr>
-      <tr class="odd"><td>item</td>  <td>description</td></tr>
-      <tr class="even"><td>item</td>  <td>description</td></tr>
+      <tr class="odd"><td>form item</td>  <td>description</td></tr>
+      <tr class="even"><td>form item</td>  <td>description</td></tr>
+      <tr class="odd"><td>form item</td>  <td>description</td></tr>
+      <tr class="even"><td>form item</td>  <td>description</td></tr>
+    </tbody>
+  </table>
+  <table id="item-table" class="table table-striped dataTable no-footer">
+    <h3>Tonality</h3>
+    <tbody>
+      <tr class="odd"><td>tonality item</td>  <td>description</td></tr>
+      <tr class="even"><td>tonality item</td>  <td>description</td></tr>
+      <tr class="odd"><td>tonality item</td>  <td>description</td></tr>
+      <tr class="even"><td>tonality item</td>  <td>description</td></tr>
     </tbody>
   </table>
 </div>
