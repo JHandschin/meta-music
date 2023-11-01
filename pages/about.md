@@ -8,4 +8,3 @@ permalink: /about.html
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-Meghan Hatfield
