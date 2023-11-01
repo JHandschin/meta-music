@@ -13,6 +13,7 @@ permalink: /description.html
       <h3 class="table-head">Form</h3>
       <tr class="odd"><td>item</td>  <td>description</td></tr>
       <tr class="even"><td>item</td>  <td>description</td></tr>
+      <h3 class="table-head">Tonality</h3>
       <tr class="odd"><td>item</td>  <td>description</td></tr>
       <tr class="even"><td>item</td>  <td>description</td></tr>
     </tbody>
