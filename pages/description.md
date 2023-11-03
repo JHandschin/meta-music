@@ -102,6 +102,7 @@ permalink: /description.html
       <tr class="even"><td>ii-V-I</td>  <td>DEFINITION</td></tr>
       <tr class="odd"><td>Four Chord Loop</td>  <td>DEFINITION</td></tr>
     </tbody>
+  </table>
   <table id="item-table" class="table table-striped dataTable no-footer">
     <h3>Cadences</h3>
     <tbody>
